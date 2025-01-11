@@ -16,7 +16,7 @@ html {
   block-size: 100%;
   margin: 0 auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   height: 100%;
@@ -32,7 +32,6 @@ html {
   height: 100%;
   max-height: 534px;
 }
-
 
 .result {
   grid-area: 1 / 1 / 2 / 2;
@@ -110,7 +109,7 @@ html {
   min-width: 225px;
   width: 100%;
   color: rgb(255, 255, 255);
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
@@ -136,13 +135,13 @@ html {
   width: 19px;
   height: 19px;
   border: 1px solid rgb(255, 255, 255);
-  padding: 1px; 
+  padding: 1px;
 }
 
 .search-form__pseudo-checkbox::after {
   position: absolute;
   content: "";
-  inset: center;
+  inset: 1px;
   width: 15px;
   height: 15px;
   background-color: rgb(255, 255, 255);
@@ -162,7 +161,7 @@ html {
 .button {
   background-color: transparent;
   border: 1px solid rgb(255, 255, 255);
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.2;
@@ -188,7 +187,6 @@ html {
   outline: 1px solid rgb(255, 255, 255);
   outline-offset: 1px;
 }
-
 
 .search-form__submit-button {
   padding: 0 72.5px;
@@ -222,11 +220,9 @@ h1.title {
   width: 100%;
   max-height: 300px;
   overflow: auto;
-  
 }
 
 .content__list {
-  
   display: grid;
   gap: 30px;
   margin-bottom: 30px;
@@ -239,7 +235,6 @@ h1.title {
   max-width: 390px;
   max-height: 103px;
   padding: 2px 2px 0;
-  
 }
 
 .content__card-link {
@@ -259,8 +254,6 @@ h1.title {
   outline: none;
 }
 
-
-
 .content__card-link:active {
   background-color: rgba(84, 80, 80, 1);
 }
@@ -269,9 +262,6 @@ h1.title {
   outline-offset: 0px;
 }
 
-
-
-
 .content__video-card {
   display: flex;
   justify-content: space-between;
@@ -279,8 +269,6 @@ h1.title {
   width: 100%;
   height: 100%;
 }
-
-
 
 .content__video-card-description-container {
   height: 100%;
@@ -297,7 +285,7 @@ h1.title {
   font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
-  white-space: nowrap; 
+  white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   margin-bottom: 1px;
@@ -306,7 +294,6 @@ h1.title {
 .content__video-card-description {
   font-weight: 400;
   line-height: 0.9;
-  line-clamp: 1; 
   overflow: hidden;
   display: inline;
 }
@@ -323,7 +310,6 @@ h1.title {
   height: 100%;
   object-fit: cover;
   object-position: center;
-
 }
 
 .more-button {
@@ -360,7 +346,7 @@ ol {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 .visually-hidden {
