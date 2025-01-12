@@ -134,7 +134,6 @@ html {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
   width: 19px;
   height: 19px;
   border: 1px solid rgb(255, 255, 255);
@@ -142,7 +141,6 @@ html {
 }
 
 .search-form__pseudo-checkbox::after {
-  position: absolute;
   content: "";
   inset: 1px;
   width: 15px;
