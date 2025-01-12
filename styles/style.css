@@ -6,6 +6,7 @@
 
 html {
   block-size: 100%;
+  height: 100%;
 }
 
 .page {
@@ -19,21 +20,21 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  height: 100%;
 }
 
 .content {
   display: grid;
-  grid-template-columns: 62.37% 1fr;
-  align-self: end;
-  column-gap: 31px;
+  grid-template-columns: 64.37% 1fr;
+  column-gap: 32px;
   width: 100%;
   max-width: 1140px;
-  height: 100%;
+  min-height: 100vh;
   max-height: 534px;
+  align-content: center;
 }
 
 .result {
+  align-items: stretch;
   grid-area: 1 / 1 / 2 / 2;
   align-self: self-end;
 }
@@ -44,7 +45,7 @@ html {
   max-width: 711px;
   height: 0;
   padding-bottom: 54%;
-  margin-bottom: 19px;
+  margin-bottom: 21px;
 }
 
 .result__video {
@@ -198,16 +199,16 @@ html {
   width: 100%;
   height: 100%;
   padding-right: 3px;
-  margin-top: 31px;
 }
 
 h1.title {
-  margin-bottom: 19px;
+  margin-bottom: 20px;
   font-family: Oswald, sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 0.94;
   text-transform: uppercase;
+  letter-spacing: 0.005rem;
 }
 
 .content__accent {
@@ -225,7 +226,6 @@ h1.title {
 .content__list {
   display: grid;
   gap: 30px;
-  margin-bottom: 30px;
   width: 100%;
 }
 
@@ -234,7 +234,6 @@ h1.title {
   height: 100%;
   max-width: 390px;
   max-height: 103px;
-  padding: 2px 2px 0;
 }
 
 .content__card-link {
@@ -305,8 +304,8 @@ h1.title {
 }
 
 .content__video-card-thumbnail {
-  flex: 0 0 195px;
-  width: 100%;
+  flex-shrink: 0;
+  width: 195px;
   height: 100%;
   object-fit: cover;
   object-position: center;
@@ -314,7 +313,7 @@ h1.title {
 
 .more-button {
   width: calc(100% - 6px);
-  margin: 0 3px 3px;
+  margin-top: 30px;
 }
 
 h1,
